@@ -93,21 +93,14 @@ body {
 .navbar.container {
   @media @tablet {
     max-width: ((@container-sm - 30px));
-		ul {
-			margin-top: 50px;
-		}
+
   }
   @media @normal {
     max-width: ((@container-md - 30px));
-		ul {
-			margin-top: 50px;
-		}
   }
   @media @wide {
     max-width: ((@container-lg - 30px));
-		ul {
-			margin-top: 50px;
-		}
+
   }
   margin-top: 20px;
   > .container {
@@ -152,17 +145,6 @@ body {
 }
 
 // Branding.
-.navbar .name{
-	@media @tablet {
-		margin-top:50px;
-	}
-	@media @normal {
-		margin-top:50px;
-	}
-	@media @wide {
-		margin-top:50px;
-	}
-}
 .navbar .logo {
   margin-right: -15px;
   padding-left: 15px;

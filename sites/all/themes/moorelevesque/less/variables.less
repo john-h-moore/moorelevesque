@@ -1,7 +1,7 @@
 //
 // Variables
 // --------------------------------------------------
-@site-background:	#E3A59B;
+@site-background:	#FFE7C5;
 @content-background:	#E7936B;	
 @green:			#737A6F;
 //@import url(https://fonts.googleapis.com/css?family=Pinyon+Script);
@@ -25,6 +25,7 @@
 @brand-warning:         #f0ad4e;
 @brand-danger:          #d9534f;
 
+@purple:		#76185F;
 
 //== Scaffolding
 //
@@ -371,13 +372,14 @@
 @navbar-collapse-max-height:       340px;
 
 @navbar-default-color:             #fff;
-@navbar-default-bg:                #612331;
+//@navbar-default-bg:                #612331;
+@navbar-default-bg:                @purple;
 @navbar-default-border:            darken(@navbar-default-bg, 6.5%);
 
 // Navbar links
 @navbar-default-link-color:                #fff;
-@navbar-default-link-hover-color:          #333;
-@navbar-default-link-hover-bg:             transparent;
+@navbar-default-link-hover-color:          #fff;
+@navbar-default-link-hover-bg:             lighten(@navbar-default-bg, 10%);
 @navbar-default-link-active-color:         #aaa;
 @navbar-default-link-active-bg:            darken(@navbar-default-bg, 6.5%);
 @navbar-default-link-disabled-color:       #ccc;
