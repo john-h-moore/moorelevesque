@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the RSVP feature.
+ */
+
+include_once 'rsvp.features.inc';
