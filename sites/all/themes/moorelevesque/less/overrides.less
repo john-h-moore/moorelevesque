@@ -674,3 +674,18 @@ table {
   color: darken(@alert-danger-text, 10%);
 }
 
+.table-striped > tbody > tr:nth-child(2n) > td {
+ background-color: @table-bg-accent-2;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td {
+ background-color: @table-bg-accent;
+}
+
+#block-system-help {
+	font-size: 90%;
+	padding: 1em;
+	margin-bottom: 2em;
+	border-radius: 3px;
+	background: lighten(@site-background, 20%);
+}

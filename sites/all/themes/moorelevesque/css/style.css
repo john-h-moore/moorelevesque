@@ -1499,7 +1499,7 @@ th {
   border-bottom-width: 2px;
 }
 .table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: #f9f9f9;
+  background-color: #71B79F;
 }
 .table-hover > tbody > tr:hover {
   background-color: #E7936B;
@@ -2444,26 +2444,26 @@ fieldset[disabled] .btn-success.active {
 }
 .btn-info {
   color: #fff;
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #76185F;
+  border-color: #61144e;
 }
 .btn-info:focus,
 .btn-info.focus {
   color: #fff;
-  background-color: #31b0d5;
-  border-color: #1b6d85;
+  background-color: #4c0f3d;
+  border-color: #000000;
 }
 .btn-info:hover {
   color: #fff;
-  background-color: #31b0d5;
-  border-color: #269abc;
+  background-color: #4c0f3d;
+  border-color: #2e0925;
 }
 .btn-info:active,
 .btn-info.active,
 .open > .dropdown-toggle.btn-info {
   color: #fff;
-  background-color: #31b0d5;
-  border-color: #269abc;
+  background-color: #4c0f3d;
+  border-color: #2e0925;
 }
 .btn-info:active:hover,
 .btn-info.active:hover,
@@ -2475,8 +2475,8 @@ fieldset[disabled] .btn-success.active {
 .btn-info.active.focus,
 .open > .dropdown-toggle.btn-info.focus {
   color: #fff;
-  background-color: #269abc;
-  border-color: #1b6d85;
+  background-color: #2e0925;
+  border-color: #000000;
 }
 .btn-info:active,
 .btn-info.active,
@@ -2501,11 +2501,11 @@ fieldset[disabled] .btn-info:active,
 .btn-info.disabled.active,
 .btn-info[disabled].active,
 fieldset[disabled] .btn-info.active {
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #76185F;
+  border-color: #61144e;
 }
 .btn-info .badge {
-  color: #5bc0de;
+  color: #76185F;
   background-color: #fff;
 }
 .btn-warning {
@@ -7359,6 +7359,19 @@ table .checkbox input[type="checkbox"] {
 }
 .alert-danger a {
   color: #843534;
+}
+.table-striped > tbody > tr:nth-child(2n) > td {
+  background-color: #A7D8C7;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td {
+  background-color: #71B79F;
+}
+#block-system-help {
+  font-size: 90%;
+  padding: 1em;
+  margin-bottom: 2em;
+  border-radius: 3px;
+  background: #ffffff;
 }
 .block-countdown {
   text-align: center;
