@@ -17,6 +17,9 @@ function rsvp_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_attending',
+    'field_permissions' => array(
+      'type' => 2,
+    ),
     'indexes' => array(
       'value' => array(
         0 => 'value',
@@ -30,6 +33,7 @@ function rsvp_field_default_field_bases() {
         1 => 'Will Attend',
       ),
       'allowed_values_function' => '',
+      'profile2_private' => FALSE,
     ),
     'translatable' => 0,
     'type' => 'list_boolean',

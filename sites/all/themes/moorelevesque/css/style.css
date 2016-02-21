@@ -4763,7 +4763,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   line-height: 1.42857143;
   text-decoration: none;
   color: #fff;
-  background-color: #fff;
+  background-color: #777777;
   border: 1px solid #ddd;
   margin-left: -1px;
 }
@@ -4855,7 +4855,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager li > span {
   display: inline-block;
   padding: 5px 14px;
-  background-color: #fff;
+  background-color: #777777;
   border: 1px solid #ddd;
   border-radius: 15px;
 }
@@ -4877,7 +4877,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager .disabled > a:focus,
 .pager .disabled > span {
   color: #777777;
-  background-color: #fff;
+  background-color: #777777;
   cursor: not-allowed;
 }
 .label {

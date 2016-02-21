@@ -16,6 +16,14 @@ function rsvp_views_api($module = NULL, $api = NULL) {
  */
 function rsvp_node_info() {
   $items = array(
+    'manual_rsvp' => array(
+      'name' => t('Manual RSVP'),
+      'base' => 'node_content',
+      'description' => t('Use to create RSVP on behalf of a guest (e.g., phone/email/verbal RSVP)'),
+      'has_title' => '1',
+      'title_label' => t('Last Name'),
+      'help' => '',
+    ),
     'rsvp' => array(
       'name' => t('RSVP'),
       'base' => 'node_content',
