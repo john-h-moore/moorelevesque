@@ -7373,7 +7373,8 @@ table .checkbox input[type="checkbox"] {
   border-radius: 3px;
   background: #ffffff;
 }
-.block-countdown {
+.block-countdown,
+#block-block-2 p {
   text-align: center;
   font-size: 3em;
   font-family: 'Dancing Script', cursive;
